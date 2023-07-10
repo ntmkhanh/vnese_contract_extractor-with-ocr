@@ -1,0 +1,27 @@
+.btn{
+    margin-right: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.upload_wrapper{
+    width: 100%;
+}
+
+.btn_upload{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-list-inline .ant-upload-list-item {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-inline-end: 8px;
+  }
+
+.res-btn{
+    margin-bottom: 20px;
+    color: aliceblue;
+}

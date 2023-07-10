@@ -1,0 +1,74 @@
+.footer {
+    background: #f7f7f7;
+    padding: 2rem 5%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+    margin-left: 15%;
+}
+
+.footer .box-container .box h3 {
+    font-size: 1.5rem;
+    color: #130f40;
+  
+}
+
+.footer .box-container .box p {
+    font-size: 1rem;
+    color: #666;
+    
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+    
+}
+
+.footer .box-container .box a:hover {
+    color: #27ae60;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+.footer .box-container .box i {
+    padding-right: .5rem;
+    color: #27ae60;
+}
+.footer .box-container .box i:hover {
+    color: #2722b2;
+}
+
+
+.footer .box .bottom .share a {
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    margin: 1rem 2rem;  
+    color: #fff;
+    background: #08021e;
+    
+}
+
+.footer .box .bottom .share a:hover {
+    background: #19bc2f;
+}
+
+@media (max-width: 576px) {
+    .footer .box-container {
+
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+    }
+
+}
