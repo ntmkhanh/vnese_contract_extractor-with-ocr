@@ -46,5 +46,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ##
+DEMO
+
+https://github.com/ntmkhanh/contract_extractor-with-ocr/assets/106447791/664b4158-9221-487a-b6f9-88132b42f552
+
+
 
 
